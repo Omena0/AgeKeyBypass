@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AgeKey Local Authenticator",
+  "version": "0.5.0",
+  "description": "Automatically registers an AgeKey WebAuthn credential and downloads its JSON key bundle.",
+  "permissions": [
+    "storage",
+    "downloads",
+    "webAuthenticationProxy"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

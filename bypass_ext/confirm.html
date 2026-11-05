@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Use AgeKey key</title>
+    <link rel="stylesheet" href="confirm.css">
+  </head>
+  <body>
+    <main>
+      <h1>Choose a key for this assertion</h1>
+      <p id="summary">Loading request…</p>
+      <label for="credential">Choose a matching key</label>
+      <select id="credential"></select>
+      <button id="addKey" class="secondary">Add key</button>
+      <input id="keyFile" type="file" accept=".json,application/json" hidden>
+      <p id="error" role="alert"></p>
+      <div class="actions"><button id="deny" class="secondary">Deny</button><button id="allow">Sign</button></div>
+    </main>
+    <script src="confirm.js"></script>
+  </body>
+</html>

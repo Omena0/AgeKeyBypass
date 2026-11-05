@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; font: 14px/1.45 system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 360px; max-width: 440px; padding: 16px; }
+h1 { font-size: 19px; margin: 0 0 12px; }
+h2 { font-size: 15px; margin: 0 0 8px; }
+section { border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent); margin-top: 14px; padding-top: 14px; }
+label { display: block; font-weight: 600; margin: 8px 0 4px; }
+input, select { border: 1px solid #8888; border-radius: 6px; font: inherit; padding: 8px; width: 100%; }
+button { border: 0; border-radius: 6px; cursor: pointer; font: inherit; margin-top: 8px; padding: 9px 12px; width: 100%; }
+button:not(.secondary) { background: #2463eb; color: white; }
+button.secondary { background: color-mix(in srgb, currentColor 12%, transparent); }
+button:disabled { cursor: default; opacity: .55; }
+.muted { opacity: .72; }
+.warning { background: #a45e0018; border: 1px solid #a45e0060; border-radius: 6px; padding: 9px; }
+.key-row { align-items: start; border-top: 1px solid #8885; display: flex; gap: 8px; padding: 8px 0; overflow-wrap: anywhere; }
+.remove-key { flex: 0 0 auto; margin: 0; width: auto; }
